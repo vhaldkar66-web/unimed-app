@@ -1,0 +1,6 @@
+{
+  "name": "Medical PYQ Portal",
+  "description": "A high-fidelity revision portal for MPMSU Final Year MBBS Previous Year Questions (PYQs), featuring robust topic filtering, year range selector, search, and bookmarks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
