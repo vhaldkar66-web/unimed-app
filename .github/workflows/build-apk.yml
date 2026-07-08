@@ -40,7 +40,7 @@ jobs:
             -dname "CN=Android Debug,O=Android,C=US"
 
       - name: Create empty .env from example
-        run: cp .env.example .env
+        run: cp .env.example .env && echo 'VITE_ADSENSE_CLIENT_ID=ca-pub-0000000000000000' >> .env
 
       - name: Build debug APK
         run: gradle :app:assembleDebug --stacktrace
